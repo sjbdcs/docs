@@ -1,5 +1,5 @@
 <template>
-  <a href="https://github.com/samuelhorn/jamdocs" :class="size" title="Git-repository" aria-label="Jamdocs on Github">
+  <a href="http://10.10.56.10:8085/" :class="size" title="Intranet" aria-label="Sj Intranet">
     <github-icon class="icon" />
     {{text}}
   </a>
@@ -19,7 +19,7 @@ export default {
     },
     text: {
       type: String,
-      default: 'Fork me on Github'
+      default: 'Intranet'
     }
   }
 }
