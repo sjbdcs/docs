@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Jamdocs',
-  siteUrl: 'https://jamdocs.samuelhorn.com',
+  siteName: 'St John Wiki',
+  siteUrl: 'https://wiki.sjbdcs.org',
   templates: {
     Doc: '/:slug',
   },
