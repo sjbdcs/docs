@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Accessing Gmail & FAQs",
+      "topics": [
+        {
+          "title": "Getting Started on SJBDCS Mail",
+          "slug": "sjbdcs-mail"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
