@@ -1,0 +1,66 @@
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="refresh" content="20;url=/" />
+  <title>Admin: Aaron</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://app.forestry.io/admin/main.css">
+
+  <!-- Main Stylesheet -->
+  
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://sjbdcs.org/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://sjbdcs.org/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <div id="wrapper" class="wrapper">
+
+    <div class="container pt-9 pb-9 pt-md-13 pb-md-13">
+      <div class="row justify-content-center align-content-between">
+        <div class="col-9 text-center">
+		<b>This is the wiki development page. You are not supposed to be here.
+</b>
+		</br> </br>
+          
+         <h3>
+  Redirecting to Administration page in <span id="countdown">10</span> seconds. Go <a href="//wiki.sjbdcs.org">home</a>
+</h3>
+	    
+<!-- JavaScript part -->
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 10;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "https://docs.sjbdcs.org/login?ref=dev";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>   
+  <script>
+  function getIP(json) {
+    document.write("Your IP address is: " + json.ip);
+  }
+  </script>
+  <script src="http://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+  </body>
+</html>
